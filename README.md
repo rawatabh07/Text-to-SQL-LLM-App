@@ -12,6 +12,12 @@ Interactive UI: Built with Streamlit for fast, intuitive interaction.
 
 Extensible Schema: Swap or extend the database (e.g., student.db) easily.
 
+## Installation
+git clone https://github.com/yourusername/text-to-sql-llm-app.git
+cd text-to-sql-llm-app
+python -m venv venv           # or conda create -n sqlapp python=3.10
+source venv/bin/activate      # on Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
 
 
