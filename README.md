@@ -8,3 +8,12 @@ An end-to-end application that converts natural language questions into SQL quer
 - Generates SQL using Google Gemini API
 - Executes queries on a relational database
 - Returns results in JSON format
+
+
+## Proejct Structure
+├── app.py           # Streamlit app
+├── sql.py           # Handles Gemini prompts + SQL execution
+├── student.db       # Sample SQLite database
+├── requirements.txt
+└── README.md
+
