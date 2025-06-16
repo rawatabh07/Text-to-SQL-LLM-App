@@ -38,6 +38,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### 4. Run the app
 streamlit run app.py
 
+## Screenshots
+<img width="956" alt="Screenshot 2025-06-16 143220" src="https://github.com/user-attachments/assets/00ada298-c895-4d26-aae8-218fa9e120c8" />
+
 
 
 
