@@ -1,19 +1,17 @@
 # Text-to-SQL-LLM-App
 
-An end-to-end application that converts natural language questions into SQL queries using Google Gemini LLM and executes them against a database.
+An end-to-end application that converts natural language questions into SQL queries using Google Gemini LLM , executes them against a database and displaying results via a Streamlit UI.
 
 ## Features
 
-- Accepts user input in natural language
-- Generates SQL using Google Gemini API
-- Executes queries on a relational database
-- Returns results in JSON format
+Natural Language → SQL: Uses Google Gemini Pro to convert user questions to SQL.
+
+Execute Queries: Runs generated SQL against a local SQLite database.
+
+Interactive UI: Built with Streamlit for fast, intuitive interaction.
+
+Extensible Schema: Swap or extend the database (e.g., student.db) easily.
 
 
-## Proejct Structure
-├── app.py           # Streamlit app
-├── sql.py           # Handles Gemini prompts + SQL execution
-├── student.db       # Sample SQLite database
-├── requirements.txt
-└── README.md
+
 
