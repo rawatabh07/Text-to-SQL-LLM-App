@@ -4,13 +4,13 @@ An end-to-end application that converts natural language questions into SQL quer
 
 ## Features
 
-Natural Language → SQL: Uses Google Gemini Pro to convert user questions to SQL.
+- Natural Language → SQL: Uses Google Gemini Pro to convert user questions to SQL.
 
-Execute Queries: Runs generated SQL against a local SQLite database.
+- Execute Queries: Runs generated SQL against a local SQLite database.
 
-Interactive UI: Built with Streamlit for fast, intuitive interaction.
+- Interactive UI: Built with Streamlit for fast, intuitive interaction.
 
-Extensible Schema: Swap or extend the database (e.g., student.db) easily.
+- Extensible Schema: Swap or extend the database (e.g., student.db) easily.
 
 ## Dependencies
 - streamlit
